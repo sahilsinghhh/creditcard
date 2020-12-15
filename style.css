@@ -1,0 +1,665 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* ---------------navbar start here -------------------*/
+
+header {
+  width: 100%;
+  height: 100vh;
+}
+.navbar {
+  width: 100%;
+
+  display: flex;
+}
+
+.logo img {
+  width: 250px;
+  height: 100px;
+}
+
+.navbar nav {
+  width: 60%;
+
+  margin-left: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/* --------------------section grid -1--------------------------------- */
+
+.start {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.navGrid {
+  width: auto;
+  height: 80vh;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+nav a:hover{
+  background-color: rgb(224, 222, 222) ;
+  padding: 20px;
+  border-radius: 35px;
+}
+
+.startImg img {
+  width: 100%;
+  height: 80vh;
+  border-radius: 20px;
+  box-shadow: 5px 10px 2px gray;
+}
+
+.emailInput {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 20px;
+  width: 50%;
+  padding: 18px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+  background-color: whitesmoke;
+  font-size: 18px;
+}
+
+.emailBtn {
+  margin-top: 50px;
+  width: 50%;
+  padding: 18px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: gray;
+  border: none;
+  font-size: 18px;
+}
+
+.emailBtn:hover {
+  background-color: rgb(68, 67, 67);
+}
+
+.tag {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+/* =----------------------------checkout Grid  section ------------------------- */
+
+.checkoutGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.checkout {
+  width: 400px;
+  height: 80vh;
+  margin-left: 150px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.checkoutImg img {
+  width: 500px;
+  height: 600px;
+  position: relative;
+  top: 120px;
+  left: 200px;
+}
+
+  .checkoutImg {
+    animation: MoveUpDown 5s linear infinite;
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 100px;
+    }
+  }
+
+
+
+
+.learnBtn {
+  width: 150px;
+  height: 40px;
+  position: relative;
+  bottom: 130px;
+  left: 240px;
+  border-radius: 20px;
+  border: none;
+  color: black;
+  border: 2px solid rgb(30, 151, 221);;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 10px;
+
+}
+
+
+.learnBtn:hover {
+  background-color: rgb(30, 151, 221);
+}
+
+/* =----------------------------automation Grid  section ------------------------- */
+
+.automationGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+}
+
+.automation {
+  width: 400px;
+  height: 80vh;
+  margin-left: 350px;
+  margin-top: 150px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.automationImg img {
+  width: 500px;
+  height: 600px;
+  position: relative;
+  top: 120px;
+  left: 150px;
+}
+
+.automationImg {
+  animation: MoveUpDown 5s linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
+
+
+.automateBtn {
+  
+  border-radius: 20px;
+  border: none;
+  color: black;
+  border: 2px solid rgb(30, 151, 221);;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-right: 200px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.automateBtn:hover {
+  background-color: rgb(30, 151, 221);;
+}
+
+/* ---------------------------------billing grid  section ------------------------ */
+
+.billingGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.billing {
+  width: 400px;
+  height: 80vh;
+  margin-left: 150px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.billingImg img {
+  width: 500px;
+  height: 600px;
+  position: relative;
+  top: 120px;
+  left: 50px;
+}
+
+.billingImg {
+  animation: MoveUpDown 5s linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
+
+
+.billingBtn {
+  
+  border-radius: 20px;
+  border: none;
+  color: black;
+  border: 2px solid rgb(30, 151, 221);;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-right: 150px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.billingBtn:hover {
+  background-color: rgb(30, 151, 221);;
+}
+
+/* -------------------------recapture section start here------------------- */
+
+.recaptureGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+}
+
+.recapture {
+  width: 400px;
+  height: 80vh;
+  margin-left: 350px;
+  margin-top: 150px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.recaptureImg img {
+  width: 500px;
+  height: 600px;
+  position: relative;
+  top: 120px;
+  left: 150px;
+}
+
+.recaptureImg {
+  animation: MoveUpDown 5s linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
+.recaptureBtn {
+ 
+  border-radius: 20px;
+  border: none;
+  color: black;
+  border: 2px solid rgb(30, 151, 221);;
+  font-size: 15px;
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.recaptureBtn:hover {
+  background-color: rgb(30, 151, 221);;
+}
+
+/* ---------------------------back-office section start here--------------------------------- */
+
+.officeGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.office {
+  width: 400px;
+  height: 80vh;
+  margin-left: 150px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.officeImg img {
+  width: 500px;
+  height: 600px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.officeImg {
+  animation: MoveUpDown 5s linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
+
+.officeBtn {
+
+  border-radius: 20px;
+  border: none;
+  color: black;
+  border: 2px solid rgb(30, 151, 221);;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-right: 150px;
+  text-decoration: none;
+  padding: 10px;
+  
+}
+
+.officeBtn:hover {
+  background-color:rgb(30, 151, 221);;
+}
+
+/* ----------------------------------security section start here ------------------------------------------ */
+
+.security {
+  text-align: center;
+  margin-top: 50px;
+}
+.securityGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 50px;
+}
+
+.ssl {
+  margin: 20px;
+  padding: 20px;
+}
+
+.sca {
+  margin: 20px;
+  padding: 20px;
+}
+
+.gdpr {
+  margin: 10px;
+  padding: 10px;
+}
+
+.secure {
+  margin: 20px;
+  padding: 20px;
+}
+
+.globe {
+  margin: 20px;
+  padding: 20px;
+}
+
+/* <!--------------------------------------- extension secton start here------------------------------------- --> */
+
+.extensions {
+  padding: 10px;
+  height: 200px;
+  text-align: center;
+  margin-top: 50px;
+  background-color: rgb(231, 227, 227);
+}
+
+.extensionsGrid {
+  display: Grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.digital {
+  margin: 20px;
+  padding: 20px;
+}
+
+.crowd {
+  margin: 20px;
+  padding: 20px;
+}
+
+.newsletter {
+  margin: 35px;
+  padding: 20px;
+}
+
+.extensionBottom {
+  margin-top: 20px;
+  color: rgb(78, 78, 78);
+}
+
+.extensionLink {
+  text-decoration: none;
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: 2px;
+  color: gray;
+}
+.extensionLink:hover {
+  color: rgb(78, 78, 78);
+}
+
+/* ----------------------------------footer sectioon---------------------- */
+footer{
+  background-color: rgb(224, 222, 222);
+  padding: 20px;
+}
+.footerGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  margin: 50px;
+}
+
+.footerGridSecond {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+  margin: 50px;
+  width: 100%;
+  height: 300px;
+
+}
+
+.address {
+  list-style: none;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.company a{
+  text-decoration: none;
+  color: black;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  
+}
+
+.product a{
+  text-decoration: none;
+  color: black;
+}
+
+.extend {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  
+}
+.extend a{
+  text-decoration: none;
+  color: black;
+}
+.resources {
+ 
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.resources a{
+  text-decoration: none;
+  color: black;
+}
+
+/* ------------------------------checkout learn More page start here------------------------------------ */
+
+.checkoutGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 90%;
+  margin: 50px;
+}
+
+.support{
+  margin: 20px;
+  padding: 20px;
+}
+
+.account{
+  margin: 20px;
+  padding: 20px;
+}
+
+.express{
+  margin: 10px;
+  padding: 10px;
+}
+
+.loading{
+padding: 5px;
+}
+
+/* -------------------------------------multiple grid start here-------------------------------------------- */
+
+.multipleGrid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  position: relative;
+  bottom: 150px;
+
+  
+}
+
+.multipleImg{
+  width: 200px;
+  height: 300px;
+  position: relative;
+  top: 200px;
+  left: 10px;
+}
+
+.multiple{
+  width: 500px;
+  height: 80vh;
+  margin-left: 350px;
+  margin-top: 150px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+/* ---------------------------------------automation page start here------------------------------- */
+
+.autoImg img {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 120px;
+  left: 150px;
+}
+  /* --------------------------------------------login form--------------------------------------------- */
+.login{
+  width: 90%;
+  height: 50vh;
+  margin: 50px;
+}
+
+
+  .signin{
+  position: relative;
+  top: 100px;
+  padding: 10px;
+  text-decoration: none;
+  border: 2px solid gray;
+  color: black;
+  border-radius: 20px;
+
+}
+
+.signin:hover{
+background-color: gray;
+}
